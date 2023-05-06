@@ -1,0 +1,25 @@
+body {
+    width: 750px;
+    height: 200px;
+    text-align: center;
+    background-image: url(background.png);
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.container img {
+    transition: 0.5s;
+}
+
+.container img:hover {
+    transform: scale(1.3);
+    z-index: 2;
+
+}
+h3 {
+    color: aliceblue;
+}
